@@ -23,6 +23,13 @@ body {
   display: grid;
   place-items: center;
   background-color: var(--clr-bg);
+  background-image: url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: top left -150vw, bottom right;
+  @media screen and (min-width: 400px) {
+    background-position: top 100% left -50%, bottom 150% right -50%;
+  }
 }
 
 .attribution {
@@ -68,10 +75,12 @@ body {
   margin-top: 22%;
   display: flex;
   justify-content: center;
+
   .name {
     margin-right: 0.5rem;
     font-weight: 700;
   }
+
   .age {
     color: var(--clr-text-secondary);
   }

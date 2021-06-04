@@ -24,6 +24,15 @@ body {
   display: grid;
   place-items: center;
   background-color: var(--clr-bg);
+  background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: top left -150vw, bottom right;
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    background-position: top 100% left -50%, bottom 150% right -50%;
+  }
 }
 
 .attribution {
