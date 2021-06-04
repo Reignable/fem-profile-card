@@ -31,7 +31,7 @@ body {
 
 @media screen and (min-width: 400px) {
   body {
-    background-position: top 100% left -50%, bottom 150% right -50%;
+    background-position: top 200% left -60%, bottom 250% right -50%;
   }
 }
 
@@ -60,6 +60,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-shadow: 0px 10px 40px 0 rgba(45, 50, 72, 0.2);
+          box-shadow: 0px 10px 40px 0 rgba(45, 50, 72, 0.2);
 }
 
 .background {

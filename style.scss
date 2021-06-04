@@ -28,7 +28,7 @@ body {
   background-repeat: no-repeat;
   background-position: top left -150vw, bottom right;
   @media screen and (min-width: 400px) {
-    background-position: top 100% left -50%, bottom 150% right -50%;
+    background-position: top 200% left -60%, bottom 250% right -50%;
   }
 }
 
@@ -49,6 +49,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: 0px 10px 40px 0 hsla(229, 23%, 23%, 0.2);
 }
 
 .background {
